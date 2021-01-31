@@ -9,6 +9,9 @@ body {
   color: black;
 }
 
+nav {
+  background-color: white;
+}
 /* HEADER / NAV BAR STYLES START */
 header {
   padding: 20px 40px;
@@ -124,7 +127,7 @@ header nav ul li a:hover {
   display: flex;
   border-radius: 5px;
   overflow: hidden;
-  position:relative;
+  position: relative;
   background: black;
 }
 
@@ -151,7 +154,7 @@ header nav ul li a:hover {
 .grid-item img {
   width: 100%;
   vertical-align: middle;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .content a {
@@ -203,7 +206,7 @@ header nav ul li a:hover {
   .hero h2 {
     font-size: 40px;
   }
-  
+
   .media {
     width: 80%;
     padding: 0 20px;
@@ -212,7 +215,7 @@ header nav ul li a:hover {
   .content h2 {
     font-size: 16px;
   }
-  
+
   .content ul li a {
     padding: 8px;
     font-size: 12px;
@@ -226,12 +229,12 @@ header nav ul li a:hover {
     grid-gap: 8px;
     grid-auto-flow: dense;
   }
-  
+
   .grid-item {
     display: flex;
     border-radius: 5px;
     overflow: hidden;
-    position:relative;
+    position: relative;
     background: black;
   }
 
@@ -254,7 +257,7 @@ header nav ul li a:hover {
   .hero h2 {
     font-size: 30px;
   }
-  
+
   .media {
     width: 80%;
     padding: 0 20px;
@@ -263,5 +266,4 @@ header nav ul li a:hover {
   .content h2 {
     font-size: 14px;
   }
-  
 }
