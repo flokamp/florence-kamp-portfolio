@@ -11,8 +11,8 @@ body {
 
 /* HEADER / NAV BAR STYLES START */
 header {
-  padding: 20px 40px;
-  background-color: black;
+  padding: 40px 56px;
+  background-color: rgb(24, 24, 24);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -73,10 +73,6 @@ header nav ul li a:hover {
   overflow: hidden;
 }
 
-.hero img {
-  width: 50%;
-}
-
 .hero h2 {
   color: white;
   font-size: 56px;
@@ -91,6 +87,21 @@ header nav ul li a:hover {
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+#headshot {
+  max-width: 200px;
+  border-radius: 100%;
+}
+
+h3 {
+  display: flex;
+  margin-left: 32px;
+  font-size: 32px;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 .content h2 {
@@ -102,7 +113,8 @@ header nav ul li a:hover {
 }
 
 .media {
-  width: 80%;
+  display: flex;
+  width: 60%;
   padding: 0 40px;
 }
 
@@ -124,7 +136,7 @@ header nav ul li a:hover {
   display: flex;
   border-radius: 5px;
   overflow: hidden;
-  position:relative;
+  position: relative;
   background: black;
 }
 
@@ -151,7 +163,7 @@ header nav ul li a:hover {
 .grid-item img {
   width: 100%;
   vertical-align: middle;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .content a {
@@ -167,8 +179,8 @@ header nav ul li a:hover {
 }
 
 .content ul li a {
-  padding: 8px;
-  font-size: 1.6vw;
+  padding: 32px;
+  font-size: 1.2vw;
 }
 
 .content ul li a:hover {
@@ -203,7 +215,7 @@ header nav ul li a:hover {
   .hero h2 {
     font-size: 40px;
   }
-  
+
   .media {
     width: 80%;
     padding: 0 20px;
@@ -212,7 +224,7 @@ header nav ul li a:hover {
   .content h2 {
     font-size: 16px;
   }
-  
+
   .content ul li a {
     padding: 8px;
     font-size: 12px;
@@ -226,12 +238,12 @@ header nav ul li a:hover {
     grid-gap: 8px;
     grid-auto-flow: dense;
   }
-  
+
   .grid-item {
     display: flex;
     border-radius: 5px;
     overflow: hidden;
-    position:relative;
+    position: relative;
     background: black;
   }
 
@@ -254,7 +266,7 @@ header nav ul li a:hover {
   .hero h2 {
     font-size: 30px;
   }
-  
+
   .media {
     width: 80%;
     padding: 0 20px;
@@ -263,5 +275,4 @@ header nav ul li a:hover {
   .content h2 {
     font-size: 14px;
   }
-  
 }
