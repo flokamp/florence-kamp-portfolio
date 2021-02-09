@@ -9,6 +9,9 @@ body {
   color: black;
 }
 
+nav {
+  background-color: white;
+}
 /* HEADER / NAV BAR STYLES START */
 header {
   padding: 40px 56px;
